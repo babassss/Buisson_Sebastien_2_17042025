@@ -69,9 +69,7 @@ h1{
     display: flex;
     border: 1px solid #F2F2F2;
     border-radius: 12px;
-    /*height: 40px;*/
-    width: 27%;
-    justify-content: space-between;
+    width: 250px;
     margin-top: 30px;
     padding-top: 4px;   
 }
@@ -93,6 +91,7 @@ h1{
 
 .search {
     border: none;
+    padding-left: 19px;
     
 }
 
@@ -126,7 +125,7 @@ form {
     font-size: 16px;
     color: black;
     font-weight: bold;
-    padding-left: 30px;
+    /*padding-left: 30px;*/
 }
 
 button .icon{
@@ -156,6 +155,7 @@ button .textbtn{
     font-weight: bold;
     height: 40px;
     width: 10%;
+    cursor: pointer;
 }
 .choix_filtres:hover{
     background-color: #DEEBFF;
@@ -441,20 +441,15 @@ ul{
     h1{
         font-size: 18px;
     }
-    /*.card-title{
-        font-size: 13px;
-    }*/
     .formu{
-        padding-left: 20px;
+        padding-left: 0px;
     }
     .champrecherche{
-        width: 36%;
+        width: 374px;
     }
-    ::placeholder{
-        margin-left: 40px;
-        padding-left: 30px;
+    .search{
+        padding-right: 50px;
     }
-
     button .icon{
         display: none;
     }
@@ -462,11 +457,12 @@ ul{
         display: inline;
     }
     .choix_filtres{
-        width: 14%;
+        width: 12%;
         display: flex;
         justify-content: center;
         align-items: center;
         padding-right: 10px;
+        cursor: none;
     }
     .choix_filtres:active{
         background-color: #DEEBFF;
@@ -521,14 +517,14 @@ ul{
     }
     
     .populaires-cards .card-title {
-        font-size: 13px;
+        font-size: 15px;
     }
 
     .populaires-cards .card-subtitle {
         font-size: 13px;
     }
     .card{
-        width: 104%;
+        width: 98%;
         height: 128px;
     }
     .card img{
@@ -557,7 +553,7 @@ ul{
         height: 70px;
     }
     .card-title{
-        font-size: 14px;
+        font-size: 15px;
     }
 }
 
@@ -582,10 +578,6 @@ ul{
     .info i{
         font-size: 10px;
     }
-    /*.info p{
-
-    }*/
-
     .elementlogo{
         display: flex;
         justify-content: center;
@@ -594,12 +586,20 @@ ul{
     }
     .elementhebergement{
         color: #0065FC;
+        /*border-top: 0px white;*/
         border-bottom: #0065FC solid 2px;
         margin: 0px;
         width: 50%;
         display: flex;
         justify-content: center;
     }
+    /*.elementactivite:hover{
+        border-top: none;
+    }
+    .elementhebergement:active{
+        border-top: 0px solid white;
+        color: white;
+    }*/
     .elementactivite{
         color: black;
         border-bottom: #f2f2f2 solid 2px;
@@ -617,11 +617,13 @@ ul{
         justify-content: space-around;
     }
     h1{
-        font-size: 22px;
+        font-size: 25px;
         padding: 0px 10px 0px 12px;
         margin-top: 24px;
+        margin-bottom: 10px;
     }
     .recherchep{
+        font-size: 18px;
         padding: 0px 10px 0px 10px;
         margin-top: 10px;
     }
@@ -629,14 +631,14 @@ ul{
         height: 30px;
         width: 9%;
         margin-right: 0px;
-        margin-left: -18px;
+        margin-left: -20px;
     }
     .formu{
         width: 100%;
         height: 46px;
     }
     form{
-        width: 70%;
+        width: 72%;
     }
     ::placeholder{
         width: 94%;
@@ -676,17 +678,17 @@ ul{
         justify-content: space-around;
     }
     .choix_filtres{
-        justify-content: flex-start;
-        padding: 0px 0px 0px 20px;
+        justify-content: center;
+        padding: 0px;
         margin: 0px 0px 0px 0px;
-        width: 38%;
+        width: 46%;
         height: 45px;
     }
     .choix_filtres i{
         font-size: 18px;
     }
     .choix_filtres p{
-        font-size: 14px;
+        font-size: 16px;
     }
     .choix_filtres:active{
         background-color: #DEEBFF;
@@ -747,7 +749,7 @@ ul{
         height: auto;
     }
     .card-activite{
-        height: 200px;
+        height: 220px;
         margin-top: 16px;
     }
     .card-activite img{
@@ -755,7 +757,7 @@ ul{
         object-fit: cover;
     }
     .footer{
-        margin-top: 30px;
+        margin-top: 136px;
         flex-direction: column;
     }
     .propos{
